@@ -18,3 +18,8 @@ def root():
     return {"message": "FastAPI + MongoEngine", "visits": count}
 
 
+@app.get("/get")
+def get():
+    return {"message":"Get"}
+
+
